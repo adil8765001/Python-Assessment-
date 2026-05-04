@@ -1,27 +1,30 @@
 # Python-Assessment-
 Python Assessment 1 Guess the Output
+
+
+
 """
-Precedence  Operator	Description
-Highest	    ()	        Parentheses (grouping)
+Precedence  Operator	                                                Description
+Highest	    ()	                                            Parentheses (grouping)
             f(args...),
-            x[i], x.attr	Calls, subscriptions, attribute references
-            **	        Exponentiation (Right-to-Left)
-            +x, -x, ~x	Unary plus, minus, and bitwise NOT
-            *, /, //, %	Multiplication, division, floor division, modulo
-            +, -	Addition and subtraction
-            <<, >>	Bitwise shifts
-            &	        Bitwise AND
-            ^	        Bitwise XOR
-            |	        Bitwise OR
+            x[i], x.attr	                                Calls, subscriptions, attribute references
+            **	                                            Exponentiation (Right-to-Left)
+            +x, -x, ~x	                                            Unary plus, minus, and bitwise NOT
+            *, /, //, %	                                            Multiplication, division, floor division, modulo
+            +, -	                                            Addition and subtraction
+            <<, >>	                                            Bitwise shifts
+            &	                                            Bitwise AND
+            ^	                                            Bitwise XOR
+            |	                                            Bitwise OR
             >, <, >=,
-            <=, ==, !=	Comparisons, including identity (is) and membership (in)
-            not	        Logical NOT
-            and	        Logical AND
-            or	        Logical OR
-            if - else	Conditional expression
-            lambda	Lambda expression
-Lowest	    =, +=,
-            *=, etc.	Assignment operators
+            <=, ==, !=	                                            Comparisons, including identity (is) and membership (in)
+            not	                                            Logical NOT
+            and	                                            Logical AND
+            or	                                            Logical OR
+            if - else	                                            Conditional expression
+            lambda	                                            Lambda expression
+            Lowest
+            =, +=,*=, etc.                                          Assignment operators
 
 1. What is the output of the following code?
 a = 5
