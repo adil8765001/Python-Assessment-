@@ -35,8 +35,8 @@ print(x + y * x)
 Output:1
 
 3. What does this expression evaluate to?
-print(4 ** 0 ** 2)
-If the expression were evaluated from left to right, it would be 4 power 0 power 2 = 1 power 2 = 1
+print(4 ** 0 ** 2)  #if you find multiple * start/ exponential, it means execution will be start right to left #
+so, 2 power 0 = 1, and same as 0 power 4 = 0
 Output: 1
 
 4. Find the result of this bitwise operation:
